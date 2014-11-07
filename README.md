@@ -25,12 +25,11 @@ Conventions
 1. Class name and tables must be same
 2. First letter of the name must be capitalized. If table has underscore remove it. For example
 
- ---------------------------------
 |  TABLE       |      CLASS NAME  |
  ---------------------------------
-| clients      =>     Clients     |
+| clients      |     Clients     |
  ---------------------------------
-| user_role    =>     Userrole    |
+| user_role    |     Userrole    |
  ---------------------------------
 
 3. Change the variable table to table name
@@ -55,6 +54,7 @@ Ouput MySQL Dump
 To generate MySQL dump, call the following method of AccessDBAPI class
 
 $msAccessDB = new \Models\Core\AccessDBAPI();
+
 $msAccessDB::select($odbc, \Models\App\Clientes::name());
 
 The first parameter is the connection pointer. The second argument is the class name inside Models/App folder representing
