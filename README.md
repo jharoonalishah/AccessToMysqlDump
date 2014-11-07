@@ -34,16 +34,10 @@ Conventions
      <td> Clients </td>
     </tr>
     <tr>
-     <td>user_role</td>
-     <tr>Userrole </td>
+     <td> user_role </td>
+     <td> Userrole </td>
     </tr>
 </table>
-|  TABLE       |      CLASS NAME  |
- ---------------------------------
-| clients      |     Clients     |
- ---------------------------------
-| user_role    |     Userrole    |
- ---------------------------------
 
 3. Change the variable table to table name
     private static $table = "your_table_name";
