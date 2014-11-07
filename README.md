@@ -24,7 +24,20 @@ Conventions
 ===========
 1. Class name and tables must be same
 2. First letter of the name must be capitalized. If table has underscore remove it. For example
-
+<table>
+    <tr>
+     <td>TABLE</td>
+     <td> CLASS NAME </td>
+    </tr>
+    <tr>
+     <td> clients </td>
+     <td> Clients </td>
+    </tr>
+    <tr>
+     <td>user_role</td>
+     <tr>Userrole </td>
+    </tr>
+</table>
 |  TABLE       |      CLASS NAME  |
  ---------------------------------
 | clients      |     Clients     |
